@@ -20,7 +20,7 @@ main:
 	addu $s0,$t7,$s0
 	
 	la $t5,A
-	sw $s0,4($t5)
+	sw $s0,0($t5)
 	
 	li $v0,1
 	move $a0,$s0
